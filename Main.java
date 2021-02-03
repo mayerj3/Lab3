@@ -1,5 +1,17 @@
+import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+
+    Scanner s = new Scanner(System.in);
+    int num;
+
+    System.out.println("Enter a number to count down or up from: ");
+    num = s.nextLine();
+    doCountDown(num);
+
+    
+
+
+    System.out.println("Blast Off!");
   }
 }
